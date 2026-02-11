@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>myliftlogs — a serious log for serious lifters</title>
+  <meta name="description" content="A minimal strength log for lifters who care about structure and control. Fast logging. Structured templates. Clean, exportable data.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            black: '#0B0B0B',
+            offwhite: '#F5F5F5',
+            muted: '#8C8C8C',
+            titanium: '#A7ADB4',
+          },
+          fontFamily: {
+            mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'monospace'],
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-black text-offwhite min-h-screen">
+
+  <div class="max-w-[900px] mx-auto px-6 py-24 md:py-32">
+
+    <!-- Hero -->
+    <section class="text-center mb-20">
+      <!-- Logo -->
+      <div class="mb-16">
+        <img 
+          src="logo.png" 
+          alt="myliftlogs" 
+          class="mx-auto h-28 md:h-32"
+        >
+      </div>
+
+      <!-- Headline -->
+      <h1 class="font-mono font-bold text-3xl md:text-4xl lowercase mb-8">
+        a serious log for serious lifters.
+      </h1>
+
+      <!-- Subheadline -->
+      <p class="text-muted text-lg md:text-xl leading-relaxed mb-10 max-w-xl mx-auto">
+        Fast in-workout logging.<br>
+        Structured templates.<br>
+        Your data — clean and exportable.
+      </p>
+
+      <!-- Primary CTA -->
+      <a 
+        href="mailto:beta@myliftlogs.com"
+        class="inline-block bg-black text-offwhite font-medium px-8 py-4 border border-titanium hover:border-offwhite transition-colors"
+      >
+        join the beta →
+      </a>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t border-titanium mb-20"></div>
+
+    <!-- What It Is -->
+    <section class="mb-20">
+      <h2 class="font-mono font-bold text-xl md:text-2xl lowercase mb-6">
+        built like a tool.
+      </h2>
+      <p class="text-muted leading-relaxed max-w-2xl">
+        MyLiftLogs is a minimal strength log for lifters who care about structure and control. No social feed. No streak badges. No motivational noise. Just logging.
+      </p>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t border-titanium mb-20"></div>
+
+    <!-- Why It Exists -->
+    <section class="mb-20">
+      <h2 class="font-mono font-bold text-xl md:text-2xl lowercase mb-6">
+        notebooks work. until they don't.
+      </h2>
+      <p class="text-muted leading-relaxed max-w-2xl">
+        You can't query a notebook. You can't export it. You can't analyze it without rebuilding it somewhere else. MyLiftLogs keeps the discipline — and adds structure.
+      </p>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t border-titanium mb-20"></div>
+
+    <!-- Core Principles -->
+    <section class="mb-20">
+      <h2 class="font-mono font-bold text-xl md:text-2xl lowercase mb-6">
+        designed for longevity.
+      </h2>
+      <ul class="text-muted leading-loose mb-8 space-y-1">
+        <li>— Strict workout templates</li>
+        <li>— Fast set logging</li>
+        <li>— Clean, exportable data</li>
+        <li>— Assistant-ready structure</li>
+      </ul>
+      <p class="text-muted text-sm">
+        Use it alone.<br>
+        Or analyze it anywhere.
+      </p>
+    </section>
+
+    <!-- Divider -->
+    <div class="border-t border-titanium mb-20"></div>
+
+    <!-- Closing CTA -->
+    <section class="text-center">
+      <p class="font-mono text-sm text-titanium mb-6">&gt; beta open</p>
+      
+      <h2 class="font-mono font-bold text-xl md:text-2xl lowercase mb-6">
+        early access.
+      </h2>
+      <p class="text-muted leading-relaxed mb-10 max-w-xl mx-auto">
+        We're opening a small beta. If you care about structured strength logging, we'd like to hear from you.
+      </p>
+
+      <!-- Primary CTA -->
+      <a 
+        href="mailto:beta@myliftlogs.com"
+        class="inline-block bg-black text-offwhite font-medium px-8 py-4 border border-titanium hover:border-offwhite transition-colors"
+      >
+        join the beta →
+      </a>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-titanium mt-20">
+    <div class="max-w-[900px] mx-auto px-6 py-8 text-center">
+      <a 
+        href="mailto:beta@myliftlogs.com"
+        class="text-muted hover:text-offwhite hover:underline transition-colors text-sm"
+      >
+        beta@myliftlogs.com
+      </a>
+    </div>
+  </footer>
+
+</body>
+</html>
